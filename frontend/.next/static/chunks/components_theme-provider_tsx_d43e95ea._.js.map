@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/baicai/Desktop/Agent%E7%A0%94%E7%A9%B6/LocalManus/local-manus/components/theme-provider.tsx"],"sourcesContent":["'use client'\n\nimport * as React from 'react'\nimport {\n  ThemeProvider as NextThemesProvider,\n  type ThemeProviderProps,\n} from 'next-themes'\n\nexport function ThemeProvider({ children, ...props }: ThemeProviderProps) {\n  return <NextThemesProvider {...props}>{children}</NextThemesProvider>\n}\n"],"names":[],"mappings":";;;;AAGA;AAHA;;;AAQO,SAAS,cAAc,EAAE,QAAQ,EAAE,GAAG,OAA2B;IACtE,qBAAO,4TAAC,2RAAA,CAAA,gBAAkB;QAAE,GAAG,KAAK;kBAAG;;;;;;AACzC;KAFgB","debugId":null}}]
+}
